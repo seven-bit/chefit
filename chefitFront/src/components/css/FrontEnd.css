@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.CentreLogo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  margin-top: 20px; 
+  height: 150px;
+   width: 250px;
+}
+.MiddleBody{
+  display: flex;
+  align-items: center;
+	margin-bottom: 0px;
+	padding: 0px;
+	border: 0px;
+}
+.Food{
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  height: 550px;
+  width: 1550px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.Footer{
+	position: fixed;
+	background-color: #464647;
+	width: 100%;
+	height: 50%;
+}
+.searchTerm {
+  width: 70%;
+  height: 60px;
+  border-radius: 30px;
+  color: #6d6d6d;
+  border: 0px;
+  padding: 0px;
+  background: #cacdd0;
+  text-align: left;
+}
+
+.searchTerm:focus{
+  color: #6d6d6d;
+}
+
+.searchButton {
+  width: 90px;
+  height: 60px;
+  background: #ff0000;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 50px;
+  padding: 0px;
+  border: 0px;
+  transform: translate(-103%,40%);
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  transform: translate(190%, -300%);
+}
