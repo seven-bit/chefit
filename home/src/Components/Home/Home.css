@@ -1,0 +1,38 @@
+.container {
+    padding-top: 10px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    font-family: Raleway;
+    font-size: 30px;
+    color: #707070;
+  }
+
+.inside {
+    font-family: The Delicate DEMO;
+    font-size: 30px;
+}
+
+.book {
+    display:inline-block;
+    padding:0.8em 1.6em;
+    margin-top: 30px;
+    border-radius:15px;
+    border: 2px solid #FE713C;
+    font-size: 25px;
+    text-decoration:none;
+    color:#FFFFFF;
+    background-color:#FE713C;
+    text-align:center;
+    transition: all 0.2s;
+    }
+.book:hover{
+    cursor: pointer;
+    background-color:white;
+    color: black;
+    
+    }
